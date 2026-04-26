@@ -8,6 +8,6 @@ public class AppStatus {
 
     @GetMapping("/appStatus")
     public String getAppStstus(){
-        return "Application running Successfully";
+        return "Application running Successfully updated";
     }
 }
