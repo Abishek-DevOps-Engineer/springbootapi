@@ -21,6 +21,6 @@ class HelloControllerTest {
     void testHelloApi() throws Exception {
         mockMvc.perform(get("/hello"))
                 .andExpect(status().isOk())                 // HTTP 200
-                .andExpect(content().string("Hello World")); // response body
+                .andExpect(content().string("Hello World from Abishek")); // response body
     }
 }
