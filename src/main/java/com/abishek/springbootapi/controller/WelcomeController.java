@@ -8,6 +8,6 @@ public class WelcomeController {
 
     @GetMapping("/howdy")
     public String howdy(){
-        return "How you doin?";
+        return "How you doin? ";
     }
 }
