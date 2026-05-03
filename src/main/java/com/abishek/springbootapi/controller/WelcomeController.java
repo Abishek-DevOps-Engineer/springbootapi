@@ -14,6 +14,6 @@ public class WelcomeController {
 
     @GetMapping("/message2")
     public String message2(){
-        return "could i be any more dumb? ";
+        return "hello from message controller ";
     }
 }
